@@ -2,6 +2,8 @@ nav {
   height: 72px;
   padding: 12px 73px 0 8px;
 
+  border: 1px solid rgba(106, 126, 138, 0.1);
+
   .profile {
     .default {
       width: 35px;
@@ -18,6 +20,34 @@ nav {
 
     .drop-down {
       margin-top: 12px;
+    }
+  }
+}
+
+.side-nav {
+  width: 82px;
+  height: 90vh;
+
+  border: 1px solid rgba(106, 126, 138, 0.1);
+
+  .paths {
+    position: relative;
+    padding-top: 73px;
+    height: 245px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .active {
+      position: absolute;
+      width: 5px;
+      height: 53px;
+      bottom: 56px;
+      left: 0;
+
+      background: #2bda53;
     }
   }
 }
