@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav {
+  height: 72px;
+  padding: 12px 73px 0 8px;
+}
+
+nav .profile .default {
+  width: 35px;
+  height: 35px;
+  margin-top: 6px;
+  border-radius: 50%;
+  background: #6a7e8a;
+}
+
+nav .profile .greeting {
+  margin: 11px 15px 0 9px;
+}
+
+nav .profile .drop-down {
+  margin-top: 12px;
+}
+/*# sourceMappingURL=styles.css.map */

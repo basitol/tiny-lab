@@ -1,0 +1,23 @@
+nav {
+  height: 72px;
+  padding: 12px 73px 0 8px;
+
+  .profile {
+    .default {
+      width: 35px;
+      height: 35px;
+      margin-top: 6px;
+
+      border-radius: 50%;
+      background: #6a7e8a;
+    }
+
+    .greeting {
+      margin: 11px 15px 0 9px;
+    }
+
+    .drop-down {
+      margin-top: 12px;
+    }
+  }
+}
