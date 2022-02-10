@@ -3,6 +3,12 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow: hidden;
+}
+
+*:focus,
+*:active {
+  border: none;
 }
 
 body {
@@ -21,6 +27,23 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.txt {
+  color: #013c61;
+}
+
+.big-txt {
+  font-size: 36px;
+}
+
+.mid-txt {
+  font-size: 22px;
 }
 
 nav {
@@ -77,5 +100,74 @@ nav .profile .drop-down {
   bottom: 56px;
   left: 0;
   background: #2bda53;
+}
+
+.emp-table {
+  width: 100%;
+  height: 90vh;
+  padding: 88px 72px 0 73px;
+  background: #f6f8f8;
+}
+
+.emp-table .heading .h-text {
+  margin-top: 5px;
+  font-size: 26px;
+}
+
+.emp-table .heading button {
+  width: 200px;
+  height: 44px;
+  color: #fff;
+  background: #2bda53;
+  -webkit-box-shadow: 0px 7px 15px rgba(43, 218, 83, 0.2);
+          box-shadow: 0px 7px 15px rgba(43, 218, 83, 0.2);
+  border-radius: 3px;
+  border: none;
+}
+
+.emp-table .comp-det {
+  height: 114px;
+  width: 100%;
+  margin-top: 32px;
+  padding: 32px 44px 31px 27px;
+  background: #fff;
+}
+
+.emp-table .comp-det .adress {
+  margin-top: 10px;
+}
+
+.emp-table .activity-bar {
+  width: 100%;
+  height: 34px;
+  margin-top: 35px;
+}
+
+.emp-table .activity-bar .act-left select {
+  height: 34px;
+  width: 146px;
+  margin-right: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(106, 126, 138, 0.4);
+  border-radius: 3px;
+}
+
+.emp-table .activity-bar .act-left button {
+  width: 118px;
+  height: 34px;
+  margin-right: 17px;
+  background: #2bda53;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+}
+
+.emp-table .activity-bar .act-left input {
+  height: 34px;
+  width: 332px;
+  padding: 9px 0 9px 12px;
+  color: rgba(106, 126, 138, 0.4);
+  border: 1px solid rgba(106, 126, 138, 0.4);
+  border-radius: 3px;
 }
 /*# sourceMappingURL=styles.css.map */

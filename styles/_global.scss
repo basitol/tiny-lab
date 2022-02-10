@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+*:focus,
+*:active {
+  border: none;
 }
 
 body {
@@ -17,4 +23,20 @@ body {
   &-jc-sb {
     justify-content: space-between;
   }
+
+  &-jc-sa {
+    justify-content: space-around;
+  }
+}
+
+.txt {
+  color: #013c61;
+}
+
+.big-txt {
+  font-size: 36px;
+}
+
+.mid-txt {
+  font-size: 22px;
 }
