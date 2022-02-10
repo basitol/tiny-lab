@@ -127,5 +127,45 @@ nav {
         border-radius: 3px;
       }
     }
+
+    .page-bar {
+      height: 34px;
+      width: 96px;
+      .page {
+        height: 100%;
+        margin-right: 10px;
+        .valid {
+          width: 21px;
+          height: 21px;
+          margin-right: 3px;
+
+          border: 1px solid rgba(1, 60, 97, 0.1);
+          border-radius: 3px;
+          text-align: center;
+        }
+
+        .pages {
+          margin-left: 4px;
+        }
+      }
+
+      .nx-pv {
+        width: 48px;
+        gap: 7px;
+        .col {
+          width: 16.1px;
+          height: 16.1px;
+
+          border-radius: 50%;
+          background: #2bda53;
+
+          .icon {
+            height: 100%;
+            text-align: center;
+            color: #fff;
+          }
+        }
+      }
+    }
   }
 }

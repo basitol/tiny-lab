@@ -1,72 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <nav class="nav flex flex-jc-sb">
-            <div class="logo">
-                <img src="./image/Bitmap.svg" alt="">
-            </div>
-            <div class="profile flex">
-                <div class="default">
-                    <img src="" alt="">
-                </div>
-                <div class="greeting flex">
-                    Hi, <p>Joshua</p>
-                </div>
-                <div class="drop-down">
-                    <img src="./image/Icon.svg" alt="">
-                </div>
-            </div>
-        </nav>
-        <div class="whole flex">
-            <section class="side-nav">
-                <div class="paths">
-                    <div class="app">
-                        <img src="./image/app.svg" alt="">
-                    </div>
-                    <div class="active"></div>
-                    <div class="users">
-                        <img src="./image/users.svg" alt="">
-                    </div>
-                    <div class="cards">
-                        <img src="./image/cards.svg" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="emp-table">
-                <div class="heading flex flex-jc-sb">
-                    <div class="h-text txt">Employees</div>
-                    <button>Add Users</button>
-                </div>
-                <div class="comp-det flex flex-jc-sb">
-                    <h3 class="txt big-txt">Josh Bakery Ventures</h3>
-                    <p class="adress txt mid-txt">62, Bode Thomas, Surulere, Lagos</p>
-                </div>
-                <div class="activity-bar">
-                    <div class="act-left">
-                        <select name="Label" id="">
-                            <option value="">Change Label</option>
-                        </select>
-                        <button type="submit">Change</button>
-                        <input type="text" placeholder="Enter staff name here">
-                    </div>
-                </div>
-            </section>
+      <nav class="nav flex flex-jc-sb">
+        <div class="logo">
+          <img src="./image/Bitmap.svg" alt="" />
         </div>
+        <div class="profile flex">
+          <div class="default">
+            <img src="" alt="" />
+          </div>
+          <div class="greeting flex">
+            Hi,
+            <p>Joshua</p>
+          </div>
+          <div class="drop-down">
+            <img src="./image/Icon.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+      <div class="whole flex">
+        <section class="side-nav">
+          <div class="paths">
+            <div class="app">
+              <img src="./image/app.svg" alt="" />
+            </div>
+            <div class="active"></div>
+            <div class="users">
+              <img src="./image/users.svg" alt="" />
+            </div>
+            <div class="cards">
+              <img src="./image/cards.svg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="emp-table">
+          <div class="heading flex flex-jc-sb">
+            <div class="h-text txt">Employees</div>
+            <button>Add Users</button>
+          </div>
+          <div class="comp-det flex flex-jc-sb">
+            <h3 class="txt big-txt">Josh Bakery Ventures</h3>
+            <p class="adress txt mid-txt">62, Bode Thomas, Surulere, Lagos</p>
+          </div>
+          <div class="activity-bar flex flex-jc-sb">
+            <div class="act-left">
+              <select name="Label" id="">
+                <option value="">Change Label</option>
+              </select>
+              <button type="submit">Change</button>
+              <input type="text" placeholder="Enter staff name here" />
+            </div>
+            <div class="page-bar flex">
+              <div class="page flex">
+                <p class="valid">1</p>
+                <p>of</p>
+                <p class="pages">2</p>
+              </div>
+              <!-- <div class="nx-pv flex">
+                <div class="col">
+                  <div class="next"></div>
+                </div>
+                <div class="col">
+                  <div class="prev"></div>
+                </div>
+              </div> -->
+              <div class="nx-pv flex">
+                <div class="col">
+                  <div class="next icon"><i class="fa fa-angle-left"></i></div>
+                </div>
+                <div class="col">
+                  <div class="prev icon"><i class="fa fa-angle-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
