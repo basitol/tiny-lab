@@ -93,7 +93,7 @@ nav {
   .activity-bar {
     width: 100%;
     height: 34px;
-    margin-top: 35px;
+    margin: 35px 0 14px;
 
     .act-left {
       select {
@@ -168,4 +168,46 @@ nav {
       }
     }
   }
+
+  .employee-container {
+    ul {
+      display: grid;
+      grid-template-columns: 0.08fr 0.27fr 0.27fr 0.43fr 0.3fr 0.13fr 0.05fr;
+      padding: 1em;
+    }
+
+    .details-head {
+      height: 54px;
+      color: #013c61;
+      margin-bottom: -3vh;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    #details {
+      color: #6a7e8a;
+
+      background-color: white;
+      border-radius: 5px;
+      margin: 1em 0;
+    }
+  }
 }
+
+//
+//
+// }
+// ul :nth-child(2) {
+//   text-transform: capitalize;
+//   font-weight: bold;
+// }
+// ul :nth-child(3) {
+//   text-transform: capitalize;
+//   font-weight: bold;
+// }
+// #details:hover {
+//   text-align: center;
+//   height: 3vh;
+//   transition: ease-in-out 0.5s;
+// }
