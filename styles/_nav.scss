@@ -195,19 +195,37 @@ nav {
   }
 }
 
-//
-//
-// }
-// ul :nth-child(2) {
-//   text-transform: capitalize;
-//   font-weight: bold;
-// }
-// ul :nth-child(3) {
-//   text-transform: capitalize;
-//   font-weight: bold;
-// }
-// #details:hover {
-//   text-align: center;
-//   height: 3vh;
-//   transition: ease-in-out 0.5s;
-// }
+.container {
+  width: 100vw;
+  .hero {
+    width: 50%;
+    img {
+    }
+  }
+
+  .form {
+    width: 50%;
+    height: 100vh;
+    padding: 99px 180px 10px 160px;
+
+    .header {
+      margin-bottom: 18px;
+
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 46px;
+      letter-spacing: 0.4000000059604645px;
+      text-align: left;
+    }
+
+    .sub-heading {
+      font-style: normal;
+      font-size: 18px;
+      line-height: 18px;
+
+      a {
+        color: #2bda53;
+      }
+    }
+  }
+}

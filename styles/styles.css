@@ -235,4 +235,37 @@ nav .profile .drop-down {
   border-radius: 5px;
   margin: 1em 0;
 }
+
+.container {
+  width: 100vw;
+}
+
+.container .hero {
+  width: 50%;
+}
+
+.container .form {
+  width: 50%;
+  height: 100vh;
+  padding: 99px 180px 10px 160px;
+}
+
+.container .form .header {
+  margin-bottom: 18px;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+}
+
+.container .form .sub-heading {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.container .form .sub-heading a {
+  color: #2bda53;
+}
 /*# sourceMappingURL=styles.css.map */
