@@ -6,6 +6,10 @@
   overflow: hidden;
 }
 
+* input {
+  color: #013c61;
+}
+
 *:focus,
 *:active {
   border: none;
@@ -34,6 +38,25 @@ body {
       justify-content: space-around;
 }
 
+.flex-dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-al-i {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .txt {
   color: #013c61;
 }
@@ -44,6 +67,42 @@ body {
 
 .mid-txt {
   font-size: 22px;
+}
+
+label {
+  margin-bottom: 12px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6a7e8a;
+}
+
+input {
+  height: 25px;
+  margin-bottom: 15px;
+  padding-right: 28px;
+  border: none;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+  letter-spacing: -0.114286px;
+  color: #013c61;
+}
+
+.input-border {
+  position: relative;
+  height: 75px;
+  border-bottom: 1px solid #e6e7eb;
+}
+
+.input-border .icon {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+
+input:focus {
+  outline: none;
 }
 
 nav {
@@ -238,16 +297,23 @@ nav .profile .drop-down {
 
 .container {
   width: 100vw;
+  height: 100vh;
 }
 
 .container .hero {
-  width: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.container .hero img {
+  width: 100%;
+  height: 100%;
 }
 
 .container .form {
-  width: 50%;
+  width: 100%;
   height: 100vh;
-  padding: 99px 180px 10px 160px;
+  padding: 99px 180px 10px 120px;
 }
 
 .container .form .header {
@@ -267,5 +333,49 @@ nav .profile .drop-down {
 
 .container .form .sub-heading a {
   color: #2bda53;
+  text-decoration: none;
+}
+
+.container .form form {
+  position: relative;
+  width: 590px;
+  height: 510px;
+  margin-top: 40px;
+  padding: 50px 57px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 20px 50px #eaeee9;
+          box-shadow: 0px 20px 50px #eaeee9;
+  border-radius: 5px;
+}
+
+.container .form form .name .names {
+  width: 40%;
+}
+
+.container .form form .mail {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.container .form form button {
+  height: 44px;
+  width: 200px;
+  margin-top: 52px;
+  position: absolute;
+  right: 57px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  background: #2bda53;
+  -webkit-box-shadow: 0px 7px 15px rgba(43, 218, 83, 0.2);
+          box-shadow: 0px 7px 15px rgba(43, 218, 83, 0.2);
+  border-radius: 3px;
 }
 /*# sourceMappingURL=styles.css.map */

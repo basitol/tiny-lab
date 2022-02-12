@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
+
+  input {
+    color: #013c61;
+  }
 }
 
 *:focus,
@@ -27,6 +31,18 @@ body {
   &-jc-sa {
     justify-content: space-around;
   }
+
+  &-dir-col {
+    flex-direction: column;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-al-i {
+    align-items: center;
+  }
 }
 
 .txt {
@@ -39,4 +55,43 @@ body {
 
 .mid-txt {
   font-size: 22px;
+}
+
+label {
+  margin-bottom: 12px;
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6a7e8a;
+}
+
+input {
+  height: 25px;
+  margin-bottom: 15px;
+  padding-right: 28px;
+
+  border: none;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height, or 125% */
+  letter-spacing: -0.114286px;
+  color: #013c61;
+}
+
+.input-border {
+  position: relative;
+  height: 75px;
+
+  border-bottom: 1px solid #e6e7eb;
+
+  .icon {
+    position: absolute;
+    right: 0;
+    top: 40px;
+  }
+}
+
+input:focus {
+  outline: none;
 }
